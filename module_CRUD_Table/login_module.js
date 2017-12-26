@@ -2,17 +2,13 @@ exports.login = function (res, username, password) {
     var AWS = require("aws-sdk");
     var fs = require('fs');
     var cookies = require("../html_scripts/cookies");
-<<<<<<< HEAD
+
     AWS.config.update({
         region: "us-east-2",
         endpoint: "dynamodb.us-east-2.amazonaws.com",
         accessKeyId : "AKIAIROGLNBW44Y4CFHA",
         secretAccessKey : "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"
     });
-=======
-    var config = require("../module_API_RESTful/ConfigAWS");
-    config.configAWS();
->>>>>>> parent of beea8c1... update IAM
 
     var docClient = new AWS.DynamoDB.DocumentClient();
 
