@@ -1,7 +1,7 @@
 exports.changePass = function (res, taiKhoan, newPass) {
     var AWS = require("aws-sdk");
     var config = require("../module_API_RESTful/ConfigAWS");
-    config.configAWS();
+    config.configAWS(AWS);
 
     var docClient = new AWS.DynamoDB.DocumentClient()
 
