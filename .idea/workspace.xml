@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7467c4bb-fb68-4ab1-9778-39faa98586dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsRemoveTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsRemoveTaiKhoanThuChi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/BaoCao.js" afterPath="$PROJECT_DIR$/module_API_RESTful/BaoCao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js" afterPath="$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyAdd.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyAdd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/login_module.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login_module.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -57,7 +54,6 @@
         <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" />
         <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" />
         <option value="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" />
-        <option value="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" />
@@ -67,6 +63,7 @@
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" />
+        <option value="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
       </list>
     </option>
   </component>
@@ -78,7 +75,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="765" />
     <option name="width" value="1163" />
     <option name="height" value="1038" />
@@ -154,17 +151,18 @@
       <updated>1514293070066</updated>
       <workItem from="1514293073303" duration="886000" />
       <workItem from="1514294078231" duration="2095000" />
-      <workItem from="1514299530083" duration="191000" />
+      <workItem from="1514299530083" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3172000" />
+    <option name="totallyTimeSpent" value="3510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -335,14 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -421,6 +411,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
           <folding />
         </state>
       </provider>

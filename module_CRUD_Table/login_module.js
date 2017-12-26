@@ -2,7 +2,6 @@ exports.login = function (res, username, password) {
     var AWS = require("aws-sdk");
     var fs = require('fs');
     var cookies = require("../html_scripts/cookies");
-    var config = require("../module_API_RESTful/ConfigAWS");
     AWS.config.update({
         region: "us-east-2",
         endpoint: "dynamodb.us-east-2.amazonaws.com",
