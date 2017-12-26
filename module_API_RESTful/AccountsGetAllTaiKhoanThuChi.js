@@ -1,7 +1,7 @@
 exports.getData = function (res, taiKhoan) {
     var AWS = require("aws-sdk");
     var config = require("./ConfigAWS");
-    config.configAWS(AWS);
+    config.configAWS();
 
     var docClient = new AWS.DynamoDB.DocumentClient();
 

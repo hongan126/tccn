@@ -3,7 +3,7 @@ exports.addAcc = function (res, taiKhoan, matKhau) {
     var dateTime = require('node-datetime');
 
     var config = require("../module_API_RESTful/ConfigAWS");
-    config.configAWS(AWS);
+    config.configAWS();
 
     var docClient = new AWS.DynamoDB.DocumentClient();
 

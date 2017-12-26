@@ -1,4 +1,5 @@
-exports.configAWS = function (AWS) {
+var AWS = require("aws-sdk");
+exports.configAWS = function () {
 
 //work with DynamoDB local
 //     AWS.config.update({

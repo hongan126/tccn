@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7467c4bb-fb68-4ab1-9778-39faa98586dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/AccountsRemoveTaiKhoanThuChi.js" afterPath="$PROJECT_DIR$/module_API_RESTful/AccountsRemoveTaiKhoanThuChi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/BaoCao.js" afterPath="$PROJECT_DIR$/module_API_RESTful/BaoCao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js" afterPath="$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyAdd.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyAdd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" afterPath="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-web.js" afterPath="$PROJECT_DIR$/server-web.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,28 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login_module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server-web.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server-web.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -60,10 +52,9 @@
         <option value="$PROJECT_DIR$/html_scripts/ajax/daghi.js" />
         <option value="$PROJECT_DIR$/html_scripts/ajax/ghi-chep.js" />
         <option value="$PROJECT_DIR$/html_scripts/ajax/tai-khoan.js" />
+        <option value="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
+        <option value="$PROJECT_DIR$/server-web.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js" />
-        <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" />
-        <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" />
-        <option value="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js" />
@@ -73,8 +64,9 @@
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" />
-        <option value="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
-        <option value="$PROJECT_DIR$/server-web.js" />
+        <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js" />
+        <option value="$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js" />
+        <option value="$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js" />
       </list>
     </option>
   </component>
@@ -87,8 +79,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="765" />
-    <option name="width" value="1163" />
+    <option name="x" value="774" />
+    <option name="width" value="1154" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -113,11 +105,6 @@
             <path>
               <item name="tccn" type="b2602c69:ProjectViewProjectNode" />
               <item name="tccn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tccn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tccn" type="462c0819:PsiDirectoryNode" />
-              <item name="module_API_RESTful" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tccn" type="b2602c69:ProjectViewProjectNode" />
@@ -162,18 +149,17 @@
       <updated>1514293070066</updated>
       <workItem from="1514293073303" duration="886000" />
       <workItem from="1514294078231" duration="2095000" />
-      <workItem from="1514299530083" duration="797000" />
+      <workItem from="1514299530083" duration="1919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3778000" />
+    <option name="totallyTimeSpent" value="4900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -271,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_API_RESTful/server-api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="86" column="54" lean-forward="true" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_scripts/ajax/daghi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -312,30 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_CRUD_Table/upload-file-s3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -344,20 +299,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js">
+    <entry file="file://$PROJECT_DIR$/server-web.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <marker date="1514299583163" expanded="true" signature="582:836" ph="..." />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/AccountsAddTaiKhoanThuChi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -365,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/AccountsGetAllTaiKhoanThuChi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -373,7 +326,7 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/AccountsGetByTaiKhoan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -381,7 +334,7 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/AccountsRemoveTaiKhoanThuChi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -389,15 +342,25 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/BaoCao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_API_RESTful/ConfigAWS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <marker date="1514301614015" expanded="true" signature="609:863" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/NhatKyAdd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -405,7 +368,7 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/NhatKyGetAllByUsername.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -413,7 +376,7 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -421,23 +384,47 @@
     <entry file="file://$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_API_RESTful/server-api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="86" column="54" lean-forward="true" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/AccountsAddTaiKhoanDangNhap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/AccountsUpdatePassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_CRUD_Table/NhatKyAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>

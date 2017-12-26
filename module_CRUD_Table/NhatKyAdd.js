@@ -2,7 +2,7 @@ exports.addData = function (res, taiKhoan, ngayThuChi, loaiThuChi, soTien, hangM
     var AWS = require("aws-sdk");
     var dateTime = require('node-datetime');
     var config = require("../module_API_RESTful/ConfigAWS");
-    config.configAWS(AWS);
+    config.configAWS();
 
     var docClient = new AWS.DynamoDB.DocumentClient();
 
