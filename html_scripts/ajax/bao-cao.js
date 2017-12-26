@@ -15,7 +15,7 @@ function getBaoCao() {
     $("#tableBody").html("");
     $.ajax({
         type: 'GET',
-        url: 'http://ec2-18-218-15-7.us-east-2.compute.amazonaws.com:8088/bao-cao/' + user.toString(),
+        url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/bao-cao/' + user.toString(),
         dataType: 'json',
         success: function (data) {
             // alert("success");

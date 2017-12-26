@@ -15,7 +15,7 @@ function getAllNhatKyThuChi() {
     $("#tableBody").html("");
     $.ajax({
         type: 'GET',
-        url: 'http://ec2-18-218-15-7.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/' + user.toString(),
+        url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/' + user.toString(),
         dataType: 'json',
         success: function (data) {
             // alert("success");
@@ -49,10 +49,10 @@ function getAllNhatKyThuChi() {
 function deleteItem(id) {
     var r = confirm("Bạn thật sự muốn xóa!");
     if (r == true) {
-        // alert('http://ec2-18-218-15-7.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/remove/' + $("#email").html() + '/' + id.toString())
+        // alert('http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/remove/' + $("#email").html() + '/' + id.toString())
         $.ajax({
             type: 'DELETE',
-            url: 'http://ec2-18-218-15-7.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/remove/' + user.toString() + '/' + id.toString(),
+            url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/nhat-ky-thu-chi/remove/' + user.toString() + '/' + id.toString(),
             success: function (data) {
                 // alert("Đã xóa!");
                 location.reload();
