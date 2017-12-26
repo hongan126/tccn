@@ -1,0 +1,22 @@
+{
+  "name": "thu-chi-ca-nhan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server-web.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "aws-sdk": "*",
+    "body-parser": "*",
+    "cookie": "*",
+    "cors": "*",
+    "flow": "*",
+    "fs": "*",
+    "multer": "*",
+    "multiparty": "*",
+    "underscore": "*",
+    "path": "*",
+    "url": "*"
+  }
+}

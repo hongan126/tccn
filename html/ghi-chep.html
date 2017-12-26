@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghi chép - Quản lý thu chi cá nhân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="../html_scripts/jquery-1.10.2.js"></script>
+    <script src="../html_scripts/bootstrap.js"></script>
+    <script src="../html_scripts/ajax/ghi-chep.js"></script>
+    <script>
+
+    </script>
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="ghi-chep"><img class="icon-nav" src="../images/ghichep.png"/>
+                    Ghi chép</a></li>
+                <li><a href="da-ghi"><img class="icon-nav" src="../images/da_ghi.png"/>
+                    Đã ghi</a></li>
+                <li><a href="tai-khoan"><img class="icon-nav" src="../images/wallet.png"/>
+                    Tài khoản</a></li>
+                <li><a href="thu-chi-dinh-ky" style="text-decoration: line-through;"><img class="icon-nav" src="../images/han_muc_chi.png"/>
+                    Thu chi định kỳ</a></li>
+                <li><a href="bao-cao"><img class="icon-nav" src="../images/bao_cao.png"/>
+                    Báo cáo</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="text-decoration: line-through;">
+                        <img class="icon-nav" src="../images/category.png"/>
+                        Hạng mục thu/chi
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hang-muc-chi" style="text-decoration: line-through;">Hạng mục chi</a></li>
+                        <li><a href="hang-muc-thu" style="text-decoration: line-through;">Hạng mục thu</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <img class="icon-nav" src="../images/user.png"/>
+                        <span id="email">Username</span>
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="change-pass"><img class="icon-nav" src="../images/pass.png"/>
+                            Đổi mật khẩu</a></li>
+                        <li><a href="logout"><img class="icon-nav" src="../images/logout.png"/>
+                            Đăng xuất</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+    <h4>Thêm khoản thu chi</h4>
+    <form id="formGc" name="formGc" class="form-horizontal" method="POST" action="ghi-chep" autocomplete="off"
+          enctype="multipart/form-data">
+        <div class="form-group">
+            <label class="control-label col-sm-2">Ghi chép cho việc:</label>
+            <div class="col-sm-10">
+                <label class="radio-inline"><input type="radio" class="rdoThuOrChi" name="KieuGhiChep" checked value="Chi">Chi tiền</label>
+                <label class="radio-inline"><input type="radio" class="rdoThuOrChi" name="KieuGhiChep" value="Thu">Thu tiền</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="SoTien">Số tiền:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="SoTien" name="SoTien" placeholder="Nhập số tiền">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="MucThuChi">Mục thu/chi:</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="MucThuChi" id="MucThuChi">
+                    <!--<option value="Ăn uống">Ăn uống</option>-->
+                    <!--<option value="Dịch vụ sinh hoạt">Dịch vụ sinh hoạt</option>-->
+                    <!--<option value="Đi lại">Đi lại</option>-->
+                    <!--<option value="Phát triển bản thân">Phát triển bản thân</option>-->
+                    <!--<option value="Nhà cửa">Nhà cửa</option>-->
+                    <!--<option value="Trang phục">Trang phục</option>-->
+                    <!--<option value="Hưởng thụ">Hưởng thụ</option>-->
+                    <!--<option value="Hiếu hỉ">Hiếu hỉ</option>-->
+                    <!--<option value="Sức khỏe">Sức khỏe</option>-->
+                    <!--<option value="Con cái">Con cái</option>-->
+
+                    <!--<option value="Lương">Lương</option>-->
+                    <!--<option value="Được cho/tặng">Được cho/tặng</option>-->
+                    <!--<option value="Thưởng">Thưởng</option>-->
+                    <!--<option value="Tiền lãi">Tiền lãi</option>-->
+                    <!--<option value="Khác">Khác</option>-->
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="DienGiai">Diễn giải:</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" rows="3" name="DienGiai" id="DienGiai"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="TaiKhoan">Từ tài khoản:</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="TaiKhoan" id="TaiKhoan">
+                    <option value="Ví">Ví</option>
+                    <option value="ATM">ATM</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="ngay">Ngày:</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" name="ngay" id="ngay">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="HinhAnh">Hình ảnh:</label>
+            <div class="col-sm-10">
+                <input type="file" id="image-file" name="image-file">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success">Ghi</button>
+            </div>
+        </div>
+    </form>
+
+    <hr/>
+    <footer>
+        <p>©Copyright</p>
+    </footer>
+</div>
+</body>
+</html>

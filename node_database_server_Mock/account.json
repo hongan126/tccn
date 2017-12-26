@@ -1,0 +1,57 @@
+[
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "info": {
+      "matKhau": "123456789",
+      "taiKhoanThuChi": [
+        {
+          "soTienBanDau": 500000,
+          "soTienConLai": 459000,
+          "tenTaiKhoan": "Ví"
+        },
+        {
+          "soTienBanDau": 1000000,
+          "soTienConLai": 1000000,
+          "tenTaiKhoan": "ATM"
+        }
+      ]
+    }
+  },
+  {
+    "taiKhoan": "ngovanphan@gmail.com",
+    "info": {
+      "matKhau": "987654321",
+      "taiKhoanThuChi": [
+        {
+          "soTienBanDau": 600000,
+          "soTienConLai": 564000,
+          "tenTaiKhoan": "Ví"
+        },
+        {
+          "soTienBanDau": 2000000,
+          "soTienConLai": 2000000,
+          "tenTaiKhoan": "ATM"
+        }
+      ],
+      "hangMucChi": [
+        "Ăn uống",
+        "Dịch vụ sinh hoạt",
+        "Đi lại",
+        "Phát triển bản thân",
+        "Nhà cửa",
+        "Trang phục",
+        "Hưởng thụ",
+        "Hiếu hỉ",
+        "Sức khỏe",
+        "Con cái"
+      ],
+      "hangMucThu": [
+        "Được cho/tặng",
+        "Khác",
+        "Lương",
+        "Thưởng",
+        "Tiền lãi"
+      ]
+    }
+  }
+]

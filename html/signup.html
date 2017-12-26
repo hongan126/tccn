@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script src="../html_scripts/jquery-1.10.2.js"></script>
+    <script src="../html_scripts/bootstrap.js"></script>
+    <script src="../html_scripts/jquery.validate.js"></script>
+    <!--<script src="../html_scripts/singupVal.js"></script>-->
+</head>
+<body>
+<div class="container">
+
+    <div class="omb_login">
+        <h3 class="omb_authTitle">Sign up</h3>
+        <div class="row omb_row-sm-offset-3">
+            <div class="col-xs-12 col-sm-6">
+                <form class="omb_loginForm" id="form1" action="signup" enctype="multipart/form-data" autocomplete="off" method="POST">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input type="text" class="form-control" name="email" placeholder="Email address">
+                    </div>
+                    <span class="help-block"></span>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" id="password" name="password"
+                               placeholder="Password">
+                    </div>
+                    <span class="help-block"></span>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" name="password_again"
+                               placeholder="Re-enter Password">
+                    </div>
+                    <span class="help-block"></span>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+        <div class="row omb_row-sm-offset-3">
+            <div class="col-xs-12 col-sm-3">
+                <p class="checkbox">
+                    <a href="#">Forgot password?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

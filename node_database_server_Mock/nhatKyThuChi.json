@@ -1,0 +1,112 @@
+[
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "nhatKyId": "20170225_20170203180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 17000,
+      "hangMuc": "Ăn uống",
+      "dienGiai": "Ăn trưa",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "nhatKyId": "20170203_20170204180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 2000,
+      "hangMuc": "Đi lại",
+      "dienGiai": "Gửi xe",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "nhatKyId": "20170423_20170205180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 10000,
+      "hangMuc": "Dịch vụ sinh hoạt",
+      "dienGiai": "Nạp tiền điện thoại",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "nhatKyId": "20170301_20170206180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 7000,
+      "hangMuc": "Ăn uống",
+      "dienGiai": "Nước",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "hongan126@gmail.com",
+    "nhatKyId": "20170308_20170207180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 5000,
+      "hangMuc": "Phát triển bản thân",
+      "dienGiai": "Photo tài liệu",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+
+  {
+    "taiKhoan": "ngovanphan@gmail.com",
+    "nhatKyId": "20170225_20170203180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 17000,
+      "hangMuc": "Ăn uống",
+      "dienGiai": "Ăn trưa",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "ngovanphan@gmail.com",
+    "nhatKyId": "20170203_20170204180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 2000,
+      "hangMuc": "Đi lại",
+      "dienGiai": "Gửi xe",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "ngovanphan@gmail.com",
+    "nhatKyId": "20170423_20170205180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 10000,
+      "hangMuc": "Dịch vụ sinh hoạt",
+      "dienGiai": "Nạp tiền điện thoại",
+      "nguonTien": "ATM",
+      "imageUrl": "a.jpg"
+    }
+  },
+  {
+    "taiKhoan": "ngovanphan@gmail.com",
+    "nhatKyId": "20170301_20170206180560",
+    "info": {
+      "loai": "Chi",
+      "soTien": 7000,
+      "hangMuc": "Ăn uống",
+      "dienGiai": "Nước",
+      "nguonTien": "Ví",
+      "imageUrl": "a.jpg"
+    }
+  }
+
+]

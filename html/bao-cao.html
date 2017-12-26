@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý thu chi cá nhân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="../html_scripts/jquery-1.10.2.js"></script>
+    <script src="../html_scripts/bootstrap.js"></script>
+    <script src="../html_scripts/ajax/bao-cao.js"></script>
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="ghi-chep"><img class="icon-nav" src="../images/ghichep.png"/>
+                    Ghi chép</a></li>
+                <li><a href="da-ghi"><img class="icon-nav" src="../images/da_ghi.png"/>
+                    Đã ghi</a></li>
+                <li><a href="tai-khoan"><img class="icon-nav" src="../images/wallet.png"/>
+                    Tài khoản</a></li>
+                <li><a href="thu-chi-dinh-ky" style="text-decoration: line-through;"><img class="icon-nav" src="../images/han_muc_chi.png"/>
+                    Thu chi định kỳ</a></li>
+                <li class="active"><a href="bao-cao"><img class="icon-nav" src="../images/bao_cao.png"/>
+                    Báo cáo</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="text-decoration: line-through;">
+                        <img class="icon-nav" src="../images/category.png"/>
+                        Hạng mục thu/chi
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hang-muc-chi" style="text-decoration: line-through;">Hạng mục chi</a></li>
+                        <li><a href="hang-muc-thu" style="text-decoration: line-through;">Hạng mục thu</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <img class="icon-nav" src="../images/user.png"/>
+                        <span id="email">Username</span>
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="change-pass"><img class="icon-nav" src="../images/pass.png"/>
+                            Đổi mật khẩu</a></li>
+                        <li><a href="logout"><img class="icon-nav" src="../images/logout.png"/>
+                            Đăng xuất</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+    <h4>Báo cáo thu chi</h4>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Thời gian</th>
+            <th>Thu vào</th>
+            <th>Chi ra</th>
+        </tr>
+        </thead>
+        <tbody id="tableBody">
+        <!--<tr>-->
+            <!--<td>Hôm nay</td>-->
+            <!--<td>0đ</td>-->
+            <!--<td>20,000đ</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>Tuần này</td>-->
+            <!--<td>50,000đ</td>-->
+            <!--<td>70,000đ</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>Tháng này</td>-->
+            <!--<td>1,000,000đ</td>-->
+            <!--<td>700,000đ</td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+            <!--<td>Năm nay</td>-->
+            <!--<td>100,000,000đ</td>-->
+            <!--<td>98,000,000đ</td>-->
+        <!--</tr>-->
+
+        </tbody>
+    </table>
+
+    <hr/>
+    <footer>
+        <p>©Copyright</p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý thu chi cá nhân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="../css/Them-hang-muc-thu-chi.css">
+	<link rel="stylesheet" type="text/css" href="../css/validationEngine.jquery.css">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="../html_scripts/jquery-1.10.2.js"></script>
+	<script src="scripts/jquery-1.8.2.min.js"></script>
+	<script src="scripts/jquery.validationEngine.js"></script>
+	<script src="scripts/jquery.validationEngine-vi.js"></script>
+    <script src="../html_scripts/bootstrap.js"></script>
+	<script type="text/javascript" src="../html_scripts/Them-hang-muc-thu-chi.js"></script>
+	<script>
+        jQuery(document).ready(function(){
+            // binds form submission and fields to the validation engine
+            jQuery(".add-content").validationEngine();
+        });
+</script>
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="ghi-chep"><img class="icon-nav" src="../images/ghichep.png"/>
+                    Ghi chép</a></li>
+                <li><a href="da-ghi"><img class="icon-nav" src="../images/da_ghi.png"/>
+                    Đã ghi</a></li>
+                <li><a href="tai-khoan"><img class="icon-nav" src="../images/wallet.png"/>
+                    Tài khoản</a></li>
+                <li class="active"><a href="thu-chi-dinh-ky" style="text-decoration: line-through;"><img class="icon-nav" src="../images/han_muc_chi.png"/>
+                    Thu chi định kỳ</a></li>
+                <li><a href="bao-cao"><img class="icon-nav" src="../images/bao_cao.png"/>
+                    Báo cáo</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="text-decoration: line-through;">
+                        <img class="icon-nav" src="../images/category.png"/>
+                        Hạng mục thu/chi
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hang-muc-chi" style="text-decoration: line-through;">Hạng mục chi</a></li>
+                        <li><a href="hang-muc-thu" style="text-decoration: line-through;">Hạng mục thu</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <img class="icon-nav" src="../images/user.png"/>
+                        <span id="email">Username</span>
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="change-pass"><img class="icon-nav" src="../images/pass.png"/>
+                            Đổi mật khẩu</a></li>
+                        <li><a href="logout"><img class="icon-nav" src="../images/logout.png"/>
+                            Đăng xuất</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!-- start button them -->
+	<div class="add-thu-chi" id="add-box">
+	<p class="add_title"> Thêm thu chi</p>
+ 
+	<a class="close" href="#"><img class="img-close" title="Close Window" alt="Close" src="close.png" /></a>
+	<form class="add-content" action="#" method="post">
+	
+	
+            <label  for="ngay">Ngày:</label>
+           
+                <input type="date" class="form-control" id="ngay">
+           
+	
+			<label  for="Dinhky">Định kỳ theo:</label>
+           
+                <select class="form-control" id="Dinhky">
+                    <option value="Tuần">Tuần</option>
+                    <option>Tháng</option>
+                    <option>Năm</option>
+                </select>
+         
+		
+	
+            <label  for="MucThuChi">Danh mục:</label>
+            
+                <select class="form-control" id="MucThuChi">
+                    <option value="Mua sắm">Mua sắm</option>
+                    <option>Học tập</option>
+                    <option>Nhà cửa</option>
+                    <option>Đi lại</option>
+                </select>
+           
+        
+	
+            <label  for="DienGiai">Mô tả:</label>
+            
+                <textarea class="validate[required] form-control" rows="3" id="Mota"></textarea>
+            
+        
+	
+            <label  for="SoTien">Số tiền:</label>
+           
+                <input type="text" class="validate[required] form-control" id="SoTien" placeholder="Nhập số tiền">
+           
+      
+	
+            <label  for="TaiKhoan">Từ tài khoản:</label>
+            
+                <select class="form-control" id="TaiKhoan">
+                    <option value="Mua sắm">Ví</option>
+                    <option>ATM</option>
+                </select>
+           
+       
+	<button class="button submit-button" type="button">Thêm</button>
+ 
+	</form>
+ </div>
+<!-- stop button them-->
+
+<div class="container body-content">
+    <h4>Danh sách thu chi định kỳ</h4>
+    <a href="#add-box" class="btn btn-primary">Thêm</a>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Thời gian</th>
+            <th>Định kỳ theo</th>
+            <th>Danh mục</th>
+            <th>Mô tả</th>
+            <th>Số tiền</th>
+            <th>Từ tài khoản nào</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>01/01/2017</td>
+            <td>Tuần</td>
+            <td>Chi: Nhà cửa</td>
+            <td>Thuê nhà</td>
+            <td>1,200,000đ</td>
+            <td>Ví</td>
+            <td><a href="" class="btn btn-info">Sửa</a>
+                <a href="" class="btn btn-warning">Xóa</a>
+            </td>
+        </tr>
+        <tr>
+            <td>01/01/2017</td>
+            <td>Tuần</td>
+            <td>Chi: Nhà cửa</td>
+            <td>Thuê nhà</td>
+            <td>1,200,000đ</td>
+            <td>Ví</td>
+            <td><a href="" class="btn btn-info">Sửa</a>
+                <a href="" class="btn btn-warning">Xóa</a>
+            </td>
+        </tr><tr>
+            <td>01/01/2017</td>
+            <td>Tuần</td>
+            <td>Chi: Nhà cửa</td>
+            <td>Thuê nhà</td>
+            <td>1,200,000đ</td>
+            <td>Ví</td>
+            <td><a href="" class="btn btn-info">Sửa</a>
+                <a href="" class="btn btn-warning">Xóa</a>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <hr/>
+    <footer>
+        <p>©Copyright</p>
+    </footer>
+</div>
+</body>
+</html>
