@@ -10,6 +10,14 @@ var signup_module = require('./module_CRUD_Table/AccountsAddTaiKhoanDangNhap');
 var change_pass_module = require('./module_CRUD_Table/AccountsUpdatePassword');
 var api = require('./module_API_RESTful/server-api');
 
+var AWS = require("aws-sdk");
+AWS.config.update({
+    region: "us-east-2",
+    endpoint: "dynamodb.us-east-2.amazonaws.com",
+    accessKeyId : "AKIAIROGLNBW44Y4CFHA",
+    secretAccessKey : "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"
+});
+
 var imageUrl = 'empty';
 var storage = multer.diskStorage({
     destination: function (req, file, callback) {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7467c4bb-fb68-4ab1-9778-39faa98586dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_CRUD_Table/login_module.js" afterPath="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-web.js" afterPath="$PROJECT_DIR$/server-web.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login_module.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="20">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server-web.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server-web.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyGetById.js" />
         <option value="$PROJECT_DIR$/module_API_RESTful/NhatKyRemoveItem.js" />
         <option value="$PROJECT_DIR$/module_CRUD_Table/login_module.js" />
+        <option value="$PROJECT_DIR$/server-web.js" />
       </list>
     </option>
   </component>
@@ -151,12 +162,12 @@
       <updated>1514293070066</updated>
       <workItem from="1514293073303" duration="886000" />
       <workItem from="1514294078231" duration="2095000" />
-      <workItem from="1514299530083" duration="529000" />
+      <workItem from="1514299530083" duration="797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3510000" />
+    <option name="totallyTimeSpent" value="3778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -417,8 +428,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module_CRUD_Table/login_module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="20">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>
