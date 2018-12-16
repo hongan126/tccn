@@ -15,6 +15,6 @@ exports.configAWS = function () {
         region: "us-east-2",
         endpoint: "dynamodb.us-east-2.amazonaws.com"
     });
-    AWS.config.accessKeyId = "AKIAIROGLNBW44Y4CFHA";
-    AWS.config.secretAccessKey = "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";
+    AWS.config.accessKeyId = "AKIAJJKRT7MEPMTE244A";
+    AWS.config.secretAccessKey = "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";
 }
