@@ -10,7 +10,7 @@ $(document).ready(function () {
     $("#addTaiKhoan").click(function () {
         $.ajax({
             type: "post",
-            url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/add',
+            url: 'http://ec2-18-217-168-84.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/add',
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify({
                 "taiKhoan": user.toString(),
@@ -26,7 +26,7 @@ function getAllTaiKhoanThuChi() {
     $("#tbodyTaiKhoan").html("");
     $.ajax({
         type: 'GET',
-        url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/' + user.toString(),
+        url: 'http://ec2-18-217-168-84.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/' + user.toString(),
         dataType: 'json',
         success: function (data) {
             // alert("success");
@@ -52,7 +52,7 @@ function deleteTaiKhoan(tk) {
     if (r == true) {
         $.ajax({
             type: 'DELETE',
-            url: 'http://ec2-18-218-13-61.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/remove/' + user.toString() + '/' + tk.toString(),
+            url: 'http://ec2-18-217-168-84.us-east-2.compute.amazonaws.com:8088/tai-khoan-thu-chi/remove/' + user.toString() + '/' + tk.toString(),
             success: function (data) {
                 // alert("Đã xóa!");
                 location.reload();
